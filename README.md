@@ -11,19 +11,18 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 
 ## Features
 
-- Theming: **dark/light mode**, depending on your preferences (dark is default, but you can change it)
-- Great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- Nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-- An easy way to modify the theme with Hugo tooling
-- Fully responsive
-- Support for social
+-   Great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
+-   Nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
+-   An easy way to modify the theme with Hugo tooling
+-   Fully responsive
+-   Support for social
 
 #### Built-in shortcodes
 
-- **`image`** (prop required: **`src`**; props optional: **`alt`**, **`position`** (**left** is default | center | right), **`style`**)
-  - eg: `{{< image src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}`
-- **`figure`** (same as `image`, plus few optional props: **`caption`**, **`captionPosition`** (left | **center** is default | right), **`captionStyle`**
-  - eg: `{{< figure src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: red;" >}}`
+-   **`image`** (prop required: **`src`**; props optional: **`alt`**, **`position`** (**left** is default | center | right), **`style`**)
+    -   eg: `{{< image src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}`
+-   **`figure`** (same as `image`, plus few optional props: **`caption`**, **`captionPosition`** (left | **center** is default | right), **`captionStyle`**
+    -   eg: `{{< figure src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: red;" >}}`
 
 #### Code highlighting
 
@@ -39,18 +38,18 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/rhazdon/hugo-theme-hello-friend-ng.git](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
+You can download the theme manually by going to [https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng.git](https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ```
-$ git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git clone https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
 ```
-$ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git submodule add https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
 ```
 
 ## How to configure
@@ -69,7 +68,7 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
+  description = "Homepage and blog by Melvin Cornelissen"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
 
@@ -146,7 +145,7 @@ $ npm install
 
 ## How to contribute
 
-If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pulls).
+If you spot any bugs, please use [Issue Tracker](https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng/pulls).
 
 
 ## Third Party
@@ -158,6 +157,6 @@ If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo
 
 ## Licence
 
-Copyright © 2019 Djordje Atlialp
+Copyright © 2019 Melvin Cornelissen
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/coolbluemelvin/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
