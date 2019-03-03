@@ -7,7 +7,7 @@ features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.30
 
 [author]
-  name = "Djordje Atlialp"
+  name = "Melvin Cornelissen"
   homepage = "https://atlialp.com"
   twitter = "https://twitter.com/coolbluemelvin"
 
