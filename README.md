@@ -1,6 +1,6 @@
 # Hello Friend NG
 
-![Hello Friend NG](https://dsh.re/d27822)
+![](https://mlvn.io/images/darklight.gif)
 
 
 
